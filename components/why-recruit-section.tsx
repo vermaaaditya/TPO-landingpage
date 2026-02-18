@@ -1,5 +1,4 @@
 'use client'
-
 import { BookOpen, FlaskConical, Users, Rocket } from 'lucide-react'
 import { motion } from 'framer-motion'
 
@@ -48,7 +47,6 @@ export function WhyRecruitSection() {
             Why Recruit Here?
           </h2>
         </motion.div>
-
         <div className="grid gap-4 md:grid-cols-3">
           {cards.map((card, i) => {
             const Icon = card.icon
