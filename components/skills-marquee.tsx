@@ -1,5 +1,4 @@
 'use client'
-
 import { motion } from 'framer-motion'
 import {
   Code2,
@@ -39,11 +38,9 @@ export function SkillsMarquee() {
           </p>
         </div>
       </div>
-
       <div className="relative overflow-hidden">
         <div className="absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-background to-transparent" />
         <div className="absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-background to-transparent" />
-
         <motion.div
           className="flex gap-8"
           animate={{ x: ['0%', '-50%'] }}
