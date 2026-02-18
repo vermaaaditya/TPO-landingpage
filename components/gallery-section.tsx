@@ -1,5 +1,4 @@
 'use client'
-
 import { motion } from 'framer-motion'
 import { ImageIcon } from 'lucide-react'
 
@@ -35,7 +34,6 @@ export function GallerySection() {
             A glimpse into the events, drives, and activities at SIET Panchkula.
           </p>
         </motion.div>
-
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
           {galleryItems.map((item, i) => (
             <motion.div
