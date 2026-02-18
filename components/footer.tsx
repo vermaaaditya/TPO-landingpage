@@ -25,7 +25,6 @@ export function Footer() {
               Bridging academia and industry by connecting skilled graduates with leading organizations across the country.
             </p>
           </div>
-
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-primary-foreground/50">
               Quick Links
@@ -43,7 +42,6 @@ export function Footer() {
               ))}
             </ul>
           </div>
-
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-primary-foreground/50">
               Contact TPO
@@ -86,7 +84,6 @@ export function Footer() {
             </div>
           </div>
         </div>
-
         <div className="mt-12 border-t border-primary-foreground/10 pt-6">
           <p className="text-center text-xs text-primary-foreground/40">
             {'2026 SIET Panchkula. Training & Placement Office. All rights reserved.'}
