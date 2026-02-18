@@ -1,5 +1,4 @@
 'use client'
-
 import { GradientButton } from '@/components/ui/gradient-button'
 import { motion } from 'framer-motion'
 
