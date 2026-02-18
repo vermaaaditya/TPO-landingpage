@@ -1,5 +1,4 @@
 'use client'
-
 import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -19,7 +18,7 @@ export function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-xl">
-      {/* Top banner matching the reference header */}
+      {/* Top banner */}
       <div className="border-b border-border/30 bg-muted/50">
         <div className="mx-auto flex items-center justify-between px-6 py-3 lg:px-10">
           {/* SIET Logo */}
