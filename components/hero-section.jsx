@@ -1,5 +1,4 @@
 'use client'
-
 import { ImageIcon } from 'lucide-react'
 import { GradientButton } from '@/components/ui/gradient-button'
 import { DotScreenShader } from '@/components/ui/dot-shader-background'
@@ -11,7 +10,6 @@ export function HeroSection() {
       <div className="absolute inset-0">
         <DotScreenShader dotColor="#c8d6e5" bgColor="#ffffff" dotOpacity={0.15} />
       </div>
-
       <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center gap-12 px-6 py-16 lg:flex-row lg:items-center lg:gap-16 lg:py-24">
         <motion.div
           className="flex flex-1 flex-col items-start gap-6"
@@ -23,21 +21,17 @@ export function HeroSection() {
             <span className="h-2 w-2 rounded-full bg-emerald-500" />
             <span className="text-xs font-medium text-muted-foreground">Now Accepting Industry Partners for 2026</span>
           </div>
-
           <h1 className="text-balance font-serif text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
             Bridging Academic Excellence with Industry Innovation.
           </h1>
-
           <p className="max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
             Connecting forward-thinking organizations with the next generation of engineering talent from SIET Panchkula.
           </p>
-
           <div className="flex flex-wrap items-center gap-4 pt-2">
             <GradientButton>Partner with Us</GradientButton>
             <GradientButton variant="variant">Curriculum</GradientButton>
           </div>
         </motion.div>
-
         <motion.div
           className="flex-1"
           initial={{ opacity: 0, scale: 0.95 }}
