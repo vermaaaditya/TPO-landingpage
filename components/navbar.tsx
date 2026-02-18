@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
-import { InteractiveHoverButton } from '@/components/ui/interactive-hover-button'
+import { GradientButton } from '@/components/ui/gradient-button'
 
 const navLinks = [
   { label: 'Home', href: '#' },
@@ -72,14 +72,8 @@ export function Navbar() {
         </div>
 
         <div className="hidden items-center gap-3 md:flex">
-          <InteractiveHoverButton
-            text="For Recruiters"
-            className="w-40 border-primary bg-primary/5 text-sm"
-          />
-          <InteractiveHoverButton
-            text="Student Login"
-            className="w-40 border-border text-sm text-muted-foreground"
-          />
+          <GradientButton className="min-w-0 px-5 py-2.5 text-sm">For Recruiters</GradientButton>
+          <GradientButton variant="variant" className="min-w-0 px-5 py-2.5 text-sm">Student Login</GradientButton>
         </div>
 
         <button
@@ -110,14 +104,8 @@ export function Navbar() {
               </Link>
             ))}
             <div className="flex flex-col gap-2 pt-2">
-              <InteractiveHoverButton
-                text="For Recruiters"
-                className="w-full border-primary bg-primary/5 text-sm"
-              />
-              <InteractiveHoverButton
-                text="Student Login"
-                className="w-full border-border text-sm text-muted-foreground"
-              />
+              <GradientButton className="w-full text-sm">For Recruiters</GradientButton>
+              <GradientButton variant="variant" className="w-full text-sm">Student Login</GradientButton>
             </div>
           </div>
         </div>

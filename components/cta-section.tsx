@@ -1,6 +1,6 @@
 'use client'
 
-import { InteractiveHoverButton } from '@/components/ui/interactive-hover-button'
+import { GradientButton } from '@/components/ui/gradient-button'
 import { motion } from 'framer-motion'
 
 export function CtaSection() {
@@ -20,10 +20,7 @@ export function CtaSection() {
           Download our placement brochure for detailed program information, student profiles, and partnership opportunities.
         </p>
         <div className="mt-8 flex justify-center">
-          <InteractiveHoverButton
-            text="Download Brochure"
-            className="w-52 border-primary bg-primary/5 text-sm font-medium"
-          />
+          <GradientButton>Download Brochure</GradientButton>
         </div>
       </motion.div>
     </section>

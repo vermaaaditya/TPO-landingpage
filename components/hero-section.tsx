@@ -1,7 +1,7 @@
 'use client'
 
-import { FileText, ImageIcon } from 'lucide-react'
-import { InteractiveHoverButton } from '@/components/ui/interactive-hover-button'
+import { ImageIcon } from 'lucide-react'
+import { GradientButton } from '@/components/ui/gradient-button'
 import { DotScreenShader } from '@/components/ui/dot-shader-background'
 import { motion } from 'framer-motion'
 
@@ -33,14 +33,8 @@ export function HeroSection() {
           </p>
 
           <div className="flex flex-wrap items-center gap-4 pt-2">
-            <InteractiveHoverButton
-              text="Partner with Us"
-              className="w-44 border-primary bg-primary/5 text-sm font-medium"
-            />
-            <InteractiveHoverButton
-              text="Curriculum"
-              className="w-36 border-border text-sm font-medium text-muted-foreground"
-            />
+            <GradientButton>Partner with Us</GradientButton>
+            <GradientButton variant="variant">Curriculum</GradientButton>
           </div>
         </motion.div>
 
