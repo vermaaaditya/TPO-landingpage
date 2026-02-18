@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { ImageIcon } from 'lucide-react'
 
 const galleryItems = [
-  { label: 'Campus Aerial View', size: '600 x 400', span: 'sm:col-span-2 sm:row-span-2' },
+  { label: 'Placement Drive', size: '600 x 400', span: 'sm:col-span-2 sm:row-span-2' },
   { label: 'Placement Drive 2025', size: '300 x 300', span: '' },
   { label: 'Tech Fest', size: '300 x 300', span: '' },
   { label: 'Workshop Session', size: '300 x 200', span: '' },
@@ -26,13 +26,13 @@ export function GallerySection() {
           transition={{ duration: 0.5 }}
         >
           <p className="mb-3 text-sm font-medium uppercase tracking-widest text-muted-foreground">
-            Life at SIET
+            Highlights
           </p>
           <h2 className="text-balance font-serif text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Campus Gallery
+            TPO Events
           </h2>
           <p className="mx-auto mt-4 max-w-lg text-sm leading-relaxed text-muted-foreground">
-            A glimpse into the vibrant campus life, events, and activities at SIET Panchkula.
+            A glimpse into the events, drives, and activities at SIET Panchkula.
           </p>
         </motion.div>
 

@@ -21,40 +21,40 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-xl">
       {/* Top banner matching the reference header */}
       <div className="border-b border-border/30 bg-muted/50">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2">
+        <div className="mx-auto flex items-center justify-between px-6 py-3 lg:px-10">
           {/* SIET Logo */}
           <div className="flex shrink-0 items-center">
             <Image
               src="/images/siet-logo.png"
               alt="SIET Panchkula Logo"
-              width={52}
-              height={52}
-              className="h-12 w-auto object-contain"
+              width={80}
+              height={80}
+              className="h-16 w-auto object-contain lg:h-20"
             />
           </div>
 
           {/* Center text */}
-          <div className="hidden flex-1 text-center md:block">
-            <p className="text-sm font-medium leading-tight text-muted-foreground">
+          <div className="hidden flex-1 px-6 text-center md:block">
+            <p className="text-base font-medium leading-tight text-muted-foreground lg:text-lg">
               {'राज्य अभियांत्रिकी एवं प्रौद्योगिकी संस्थान, पंचकुला'}
             </p>
-            <h1 className="font-serif text-lg font-bold leading-tight tracking-tight text-foreground lg:text-xl">
+            <h1 className="font-serif text-xl font-bold leading-tight tracking-tight text-foreground lg:text-2xl">
               State Institute of Engineering & Technology, Panchkula
             </h1>
-            <p className="text-xs text-muted-foreground">
+            <p className="mt-0.5 text-xs text-muted-foreground lg:text-sm">
               Approved by AICTE, New Delhi and Affiliated to Kurukshetra University, Kurukshetra
             </p>
           </div>
 
           {/* Haryana emblem placeholder */}
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-border bg-muted">
-            <span className="text-[10px] font-bold text-muted-foreground">HRY</span>
+          <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full border border-border bg-muted lg:h-20 lg:w-20">
+            <span className="text-xs font-bold text-muted-foreground lg:text-sm">HRY</span>
           </div>
         </div>
       </div>
 
       {/* Navigation bar */}
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2.5">
+      <nav className="mx-auto flex items-center justify-between px-6 py-2.5 lg:px-10">
         <Link href="#" className="flex items-center gap-2 md:hidden">
           <span className="text-sm font-bold tracking-tight text-foreground">SIET TPO</span>
         </Link>
