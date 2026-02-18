@@ -1,5 +1,4 @@
 'use client'
-
 import { motion } from 'framer-motion'
 import { ImageIcon } from 'lucide-react'
 
@@ -44,7 +43,6 @@ export function InfrastructureSection() {
             A Hub for Innovation.
           </h2>
         </motion.div>
-
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {facilities.map((facility, i) => (
             <motion.div
