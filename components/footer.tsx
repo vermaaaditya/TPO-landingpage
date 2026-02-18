@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { Mail, Phone, Linkedin, Twitter } from 'lucide-react'
 
 const quickLinks = [
@@ -16,18 +15,11 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
           <div>
-            <div className="flex items-center gap-3">
-              <Image
-                src="/images/siet-logo.png"
-                alt="SIET Panchkula Logo"
-                width={48}
-                height={48}
-                className="h-12 w-auto brightness-200 contrast-200 invert"
-              />
-              <div>
-                <span className="font-serif text-lg font-bold tracking-tight">SIET TPO</span>
-                <p className="text-xs text-primary-foreground/50">Panchkula, Haryana</p>
-              </div>
+            <div>
+              <span className="font-serif text-xl font-bold leading-tight tracking-tight">
+                State Institute of Engineering & Technology, Panchkula
+              </span>
+              <p className="mt-1 text-xs text-primary-foreground/50">Training & Placement Office</p>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-primary-foreground/70">
               Training & Placement Office, State Institute of Engineering & Technology, Panchkula. Building industry-ready engineers for tomorrow.
