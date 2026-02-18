@@ -22,7 +22,7 @@ export function Footer() {
               <p className="mt-1 text-xs text-primary-foreground/50">Training & Placement Office</p>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-primary-foreground/70">
-              Training & Placement Office, State Institute of Engineering & Technology, Panchkula. Building industry-ready engineers for tomorrow.
+              Bridging academia and industry by connecting skilled graduates with leading organizations across the country.
             </p>
           </div>
 
