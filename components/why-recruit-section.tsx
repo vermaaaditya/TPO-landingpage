@@ -44,7 +44,7 @@ export function WhyRecruitSection() {
           <p className="mb-3 text-sm font-medium uppercase tracking-widest text-muted-foreground">
             Why SIET Panchkula
           </p>
-          <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+          <h2 className="text-balance font-serif text-3xl font-bold tracking-tight text-foreground md:text-4xl">
             Why Recruit Here?
           </h2>
         </motion.div>
